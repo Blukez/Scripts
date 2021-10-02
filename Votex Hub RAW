@@ -1,0 +1,1147 @@
+--Made by Blukez
+
+local Vortex = Instance.new("ScreenGui")
+local CmdBox = Instance.new("TextBox")
+local Execute = Instance.new("TextButton")
+local Line = Instance.new("Frame")
+local Clear = Instance.new("TextButton")
+local Netless = Instance.new("TextButton")
+local Info = Instance.new("TextButton")
+local More = Instance.new("TextButton")
+local Line2 = Instance.new("Frame")
+local AntiFling = Instance.new("TextButton")
+local DestroyHub = Instance.new("TextButton")
+local DiscordServerButton = Instance.new("TextButton")
+local COPYDISCORD = Instance.new("TextBox")
+local DIRECTIONS = Instance.new("TextLabel")
+local CloseDiscordPage = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Credits = Instance.new("TextButton")
+local InfoPage = Instance.new("Frame")
+local InfoTitle = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UpdateLog = Instance.new("TextLabel")
+local VersionNumber = Instance.new("TextLabel")
+local Welcome = Instance.new("TextLabel")
+
+Vortex.Name = "Vortex"
+Vortex.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+CmdBox.Name = "CmdBox"
+CmdBox.Parent = Vortex
+CmdBox.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+CmdBox.BorderColor3 = Color3.fromRGB(170, 0, 255)
+CmdBox.BorderSizePixel = 0
+CmdBox.Position = UDim2.new(0.35637939, 0, 0.0321811698, 0)
+CmdBox.Size = UDim2.new(0, 519, 0, 79)
+CmdBox.Font = Enum.Font.SourceSans
+CmdBox.PlaceholderColor3 = Color3.fromRGB(154, 123, 255)
+CmdBox.PlaceholderText = "Welcome to Vortex HUB!"
+CmdBox.Text = ""
+CmdBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+CmdBox.TextScaled = true
+CmdBox.TextSize = 69.000
+CmdBox.TextWrapped = true
+CmdBox.TextXAlignment = Enum.TextXAlignment.Left
+
+Execute.Name = "Execute"
+Execute.Parent = CmdBox
+Execute.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+Execute.BorderColor3 = Color3.fromRGB(170, 85, 255)
+Execute.BorderSizePixel = 0
+Execute.Position = UDim2.new(0.988439322, 0, 0, 0)
+Execute.Size = UDim2.new(0, 85, 0, 78)
+Execute.Font = Enum.Font.SourceSans
+Execute.Text = ">"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextScaled = true
+Execute.TextSize = 14.000
+Execute.TextWrapped = true
+
+Line.Name = "Line"
+Line.Parent = CmdBox
+Line.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+Line.BorderSizePixel = 0
+Line.Position = UDim2.new(0, 0, 0.987341762, 0)
+Line.Size = UDim2.new(0, 596, 0, 27)
+
+Clear.Name = "Clear"
+Clear.Parent = Line
+Clear.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+Clear.BorderSizePixel = 0
+Clear.Position = UDim2.new(0.256711304, 0, -0.00132250786, 0)
+Clear.Size = UDim2.new(0, 148, 0, 27)
+Clear.Font = Enum.Font.SourceSans
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextScaled = true
+Clear.TextSize = 14.000
+Clear.TextWrapped = true
+
+Netless.Name = "Netless"
+Netless.Parent = Line
+Netless.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+Netless.BorderSizePixel = 0
+Netless.Size = UDim2.new(0, 153, 0, 27)
+Netless.Font = Enum.Font.SourceSans
+Netless.Text = "Netless"
+Netless.TextColor3 = Color3.fromRGB(255, 255, 255)
+Netless.TextScaled = true
+Netless.TextSize = 14.000
+Netless.TextWrapped = true
+
+Info.Name = "Info"
+Info.Parent = Line
+Info.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+Info.BorderSizePixel = 0
+Info.Position = UDim2.new(0.505033553, 0, -0.00132250786, 0)
+Info.Size = UDim2.new(0, 142, 0, 27)
+Info.Font = Enum.Font.SourceSans
+Info.Text = "Version info"
+Info.TextColor3 = Color3.fromRGB(255, 255, 255)
+Info.TextScaled = true
+Info.TextSize = 14.000
+Info.TextWrapped = true
+
+More.Name = "More"
+More.Parent = Line
+More.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+More.BorderSizePixel = 0
+More.Position = UDim2.new(0.743288636, 0, -0.00132250786, 0)
+More.Size = UDim2.new(0, 155, 0, 27)
+More.Font = Enum.Font.SourceSans
+More.Text = "Expand/Colaspe"
+More.TextColor3 = Color3.fromRGB(255, 255, 255)
+More.TextScaled = true
+More.TextSize = 14.000
+More.TextWrapped = true
+
+Line2.Name = "Line2"
+Line2.Parent = Line
+Line2.BackgroundColor3 = Color3.fromRGB(167, 83, 250)
+Line2.BorderSizePixel = 0
+Line2.Position = UDim2.new(0, 0, 1, 0)
+Line2.Size = UDim2.new(0, 598, 0, 27)
+Line2.Visible = false
+
+AntiFling.Name = "AntiFling"
+AntiFling.Parent = Line2
+AntiFling.BackgroundColor3 = Color3.fromRGB(165, 83, 248)
+AntiFling.BorderSizePixel = 0
+AntiFling.Position = UDim2.new(0.503344476, 0, -0.0370370373, 0)
+AntiFling.Size = UDim2.new(0, 142, 0, 28)
+AntiFling.Font = Enum.Font.SourceSans
+AntiFling.Text = "Anti Fling"
+AntiFling.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiFling.TextScaled = true
+AntiFling.TextSize = 14.000
+AntiFling.TextWrapped = true
+
+DestroyHub.Name = "Destroy Hub"
+DestroyHub.Parent = Line2
+DestroyHub.BackgroundColor3 = Color3.fromRGB(165, 83, 248)
+DestroyHub.BorderSizePixel = 0
+DestroyHub.Position = UDim2.new(0.255852848, 0, -0.0370370373, 0)
+DestroyHub.Size = UDim2.new(0, 147, 0, 28)
+DestroyHub.Font = Enum.Font.SourceSans
+DestroyHub.Text = "Destroy Hub"
+DestroyHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestroyHub.TextScaled = true
+DestroyHub.TextSize = 14.000
+DestroyHub.TextWrapped = true
+
+DiscordServerButton.Name = "DiscordServerButton"
+DiscordServerButton.Parent = Line2
+DiscordServerButton.BackgroundColor3 = Color3.fromRGB(165, 83, 248)
+DiscordServerButton.BorderSizePixel = 0
+DiscordServerButton.Position = UDim2.new(-1.02065478e-07, 0, -0.0370370373, 0)
+DiscordServerButton.Size = UDim2.new(0, 153, 0, 28)
+DiscordServerButton.Font = Enum.Font.SourceSans
+DiscordServerButton.Text = "Discord Server"
+DiscordServerButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+DiscordServerButton.TextScaled = true
+DiscordServerButton.TextSize = 14.000
+DiscordServerButton.TextWrapped = true
+
+COPYDISCORD.Name = "COPYDISCORD"
+COPYDISCORD.Parent = DiscordServerButton
+COPYDISCORD.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+COPYDISCORD.Position = UDim2.new(-0.751633584, 0, 4.6785717, 0)
+COPYDISCORD.Size = UDim2.new(0, 825, 0, 285)
+COPYDISCORD.Visible = false
+COPYDISCORD.ClearTextOnFocus = false
+COPYDISCORD.Font = Enum.Font.SourceSans
+COPYDISCORD.Text = "https://discord.gg/qEJgjkZtFP"
+COPYDISCORD.TextColor3 = Color3.fromRGB(170, 85, 255)
+COPYDISCORD.TextSize = 74.000
+COPYDISCORD.TextWrapped = true
+
+DIRECTIONS.Name = "DIRECTIONS"
+DIRECTIONS.Parent = COPYDISCORD
+DIRECTIONS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DIRECTIONS.BackgroundTransparency = 1.000
+DIRECTIONS.BorderColor3 = Color3.fromRGB(27, 42, 53)
+DIRECTIONS.BorderSizePixel = 0
+DIRECTIONS.Position = UDim2.new(0.0562060885, 0, 0.0780346841, 0)
+DIRECTIONS.Size = UDim2.new(0, 746, 0, 94)
+DIRECTIONS.Font = Enum.Font.SourceSans
+DIRECTIONS.Text = "Highlight then Crtl + C or click then Crtl + A then Crtl + C "
+DIRECTIONS.TextColor3 = Color3.fromRGB(255, 255, 255)
+DIRECTIONS.TextScaled = true
+DIRECTIONS.TextSize = 14.000
+DIRECTIONS.TextWrapped = true
+
+CloseDiscordPage.Name = "CloseDiscordPage"
+CloseDiscordPage.Parent = COPYDISCORD
+CloseDiscordPage.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+CloseDiscordPage.Position = UDim2.new(0.355151504, 0, 0.705263138, 0)
+CloseDiscordPage.Size = UDim2.new(0, 251, 0, 50)
+CloseDiscordPage.Font = Enum.Font.SourceSans
+CloseDiscordPage.Text = "Close"
+CloseDiscordPage.TextColor3 = Color3.fromRGB(255, 255, 255)
+CloseDiscordPage.TextScaled = true
+CloseDiscordPage.TextSize = 14.000
+CloseDiscordPage.TextWrapped = true
+
+UICorner.Parent = CloseDiscordPage
+
+Credits.Name = "Credits"
+Credits.Parent = Line2
+Credits.BackgroundColor3 = Color3.fromRGB(165, 83, 248)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.740802765, 0, -0.0370370373, 0)
+Credits.Size = UDim2.new(0, 155, 0, 28)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "Credits"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+InfoPage.Name = "InfoPage"
+InfoPage.Parent = Vortex
+InfoPage.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+InfoPage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfoPage.Position = UDim2.new(0.0692419857, 0, 0.251489878, 0)
+InfoPage.Size = UDim2.new(0, 392, 0, 416)
+InfoPage.Visible = false
+
+InfoTitle.Name = "InfoTitle"
+InfoTitle.Parent = InfoPage
+InfoTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfoTitle.BackgroundTransparency = 1.000
+InfoTitle.BorderSizePixel = 0
+InfoTitle.Position = UDim2.new(0.025510205, 0, 0.0168269239, 0)
+InfoTitle.Size = UDim2.new(0, 372, 0, 50)
+InfoTitle.Font = Enum.Font.SourceSans
+InfoTitle.Text = "Welcome, USERNAME"
+InfoTitle.TextColor3 = Color3.fromRGB(170, 0, 255)
+InfoTitle.TextScaled = true
+InfoTitle.TextSize = 14.000
+InfoTitle.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = InfoPage
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Close.Position = UDim2.new(0.818877518, 0, 0.137019232, 0)
+Close.Size = UDim2.new(0, 53, 0, 51)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "Close"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+UICorner_2.Parent = Close
+
+UpdateLog.Name = "UpdateLog"
+UpdateLog.Parent = InfoPage
+UpdateLog.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UpdateLog.BackgroundTransparency = 1.000
+UpdateLog.Position = UDim2.new(0.025510205, 0, 0.25, 0)
+UpdateLog.Size = UDim2.new(0, 372, 0, 303)
+UpdateLog.Font = Enum.Font.SourceSans
+UpdateLog.Text = "Moved Destroy HUB button, Added expand menu for more features. Added discord server button. Added command list and button for it. Added antifling so other exploiters cant fling you.And more commands."
+UpdateLog.TextColor3 = Color3.fromRGB(170, 85, 255)
+UpdateLog.TextScaled = true
+UpdateLog.TextSize = 14.000
+UpdateLog.TextWrapped = true
+
+VersionNumber.Name = "VersionNumber"
+VersionNumber.Parent = InfoPage
+VersionNumber.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VersionNumber.BackgroundTransparency = 1.000
+VersionNumber.Position = UDim2.new(0, 0, 0.137019232, 0)
+VersionNumber.Size = UDim2.new(0, 392, 0, 47)
+VersionNumber.Font = Enum.Font.SourceSans
+VersionNumber.Text = "Version: 2.0"
+VersionNumber.TextColor3 = Color3.fromRGB(255, 255, 255)
+VersionNumber.TextScaled = true
+VersionNumber.TextSize = 14.000
+VersionNumber.TextWrapped = true
+
+Welcome.Name = "Welcome"
+Welcome.Parent = Vortex
+Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Welcome.BackgroundTransparency = 1.000
+Welcome.Position = UDim2.new(0.238999993, 0, 1.25, 0)
+Welcome.Size = UDim2.new(0, 916, 0, 537)
+Welcome.Font = Enum.Font.SourceSans
+Welcome.Text = "Welcome, to Vortex HUB! Made by Blukez, among SUS#6252 and oringinal script creators."
+Welcome.TextColor3 = Color3.fromRGB(170, 85, 255)
+Welcome.TextScaled = true
+Welcome.TextSize = 14.000
+Welcome.TextWrapped = true
+
+-- Scripts:
+
+local function XVUJUH_fake_script() -- Vortex.Nonifacation 
+	local script = Instance.new('LocalScript', Vortex)
+
+	game:GetService("StarterGui"):SetCore("SendNotification", { 
+		Title = "Loaded!";
+		Text = "Credits: among SUS#6252, Blukez";
+		Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+	Duration = 16;
+	
+	print("Vortex HUB is loaded! Discord: https://discord.gg/qEJgjkZtFP")
+	print("Vortex HUB is loaded! Discord: https://discord.gg/qEJgjkZtFP")
+	print("Vortex HUB is loaded! Discord: https://discord.gg/qEJgjkZtFP")
+end
+coroutine.wrap(XVUJUH_fake_script)()
+local function RTUK_fake_script() -- Execute.ExecuteScripts 
+	local script = Instance.new('LocalScript', Execute)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.CmdBox.Text = "Executed!"
+		wait(2)
+		script.Parent.Parent.Parent.CmdBox.Text = ""
+	end)
+end
+coroutine.wrap(RTUK_fake_script)()
+local function MMETISO_fake_script() -- Clear.ClearScript 
+	local script = Instance.new('LocalScript', Clear)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.CmdBox.Text = ""
+	end)
+end
+coroutine.wrap(MMETISO_fake_script)()
+local function HQHPYL_fake_script() -- Netless.Netlessscripts 
+	local script = Instance.new('LocalScript', Netless)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+			if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
+				game:GetService("RunService").Heartbeat:connect(function()
+					v.Velocity = Vector3.new(0,35,0)
+					wait(0.5)
+				end)
+			end
+		end
+	
+		game:GetService("StarterGui"):SetCore("SendNotification", { 
+			Title = "Notification";
+			Text = "Netless activated";
+			Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+		Duration = 16;
+	end)
+end
+coroutine.wrap(HQHPYL_fake_script)()
+local function YPJADLG_fake_script() -- Info.OpenInfo 
+	local script = Instance.new('LocalScript', Info)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.InfoPage.Visible = true
+	end)
+end
+coroutine.wrap(YPJADLG_fake_script)()
+local function RSBAWEU_fake_script() -- More.MoreStuffAnimation 
+	local script = Instance.new('LocalScript', More)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Line2.Visible == false then
+			script.Parent.Parent.Line2.Visible = true
+		else
+			script.Parent.Parent.Line2.Visible = false
+		end
+	end)
+end
+coroutine.wrap(RSBAWEU_fake_script)()
+local function SKANOH_fake_script() -- AntiFling.AntiflingScript 
+	local script = Instance.new('LocalScript', AntiFling)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- // Constants \\ --
+		-- [ Services ] --
+		local Services = setmetatable({}, {__index = function(Self, Index)
+			local NewService = game.GetService(game, Index)
+			if NewService then
+				Self[Index] = NewService
+			end
+			return NewService
+		end})
+	
+		-- [ LocalPlayer ] --
+		local LocalPlayer = Services.Players.LocalPlayer
+	
+		-- // Functions \\ --
+		local function PlayerAdded(Player)
+			local Detected = false
+			local Character;
+			local PrimaryPart;
+	
+			local function CharacterAdded(NewCharacter)
+				Character = NewCharacter
+				repeat
+					wait()
+					PrimaryPart = NewCharacter:FindFirstChild("HumanoidRootPart")
+				until PrimaryPart
+				Detected = false
+			end
+	
+			CharacterAdded(Player.Character or Player.CharacterAdded:Wait())
+			Player.CharacterAdded:Connect(CharacterAdded)
+			Services.RunService.Heartbeat:Connect(function()
+				if (Character and Character:IsDescendantOf(workspace)) and (PrimaryPart and PrimaryPart:IsDescendantOf(Character)) then
+					if PrimaryPart.AssemblyAngularVelocity.Magnitude > 50 or PrimaryPart.AssemblyLinearVelocity.Magnitude > 100 then
+						if Detected == false then
+							game.StarterGui:SetCore("ChatMakeSystemMessage", {
+								Text = "Fling Exploit detected, Player: " .. tostring(Player);
+								Color = Color3.fromRGB(255, 200, 0);
+							})
+						end
+						Detected = true
+						for i,v in ipairs(Character:GetDescendants()) do
+							if v:IsA("BasePart") then
+								v.CanCollide = false
+								v.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+								v.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+								v.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0)
+							end
+						end
+						PrimaryPart.CanCollide = false
+						PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+						PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+						PrimaryPart.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0)
+					end
+				end
+			end)
+		end
+	
+		-- // Event Listeners \\ --
+		for i,v in ipairs(Services.Players:GetPlayers()) do
+			if v ~= LocalPlayer then
+				PlayerAdded(v)
+			end
+		end
+		Services.Players.PlayerAdded:Connect(PlayerAdded)
+	
+		local LastPosition = nil
+		Services.RunService.Heartbeat:Connect(function()
+			pcall(function()
+				local PrimaryPart = LocalPlayer.Character.PrimaryPart
+				if PrimaryPart.AssemblyLinearVelocity.Magnitude > 250 or PrimaryPart.AssemblyAngularVelocity.Magnitude > 250 then
+					PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+					PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+					PrimaryPart.CFrame = LastPosition
+	
+					game.StarterGui:SetCore("ChatMakeSystemMessage", {
+						Text = "You were flung. Neutralizing velocity.";
+						Color = Color3.fromRGB(255, 0, 0);
+					})
+				elseif PrimaryPart.AssemblyLinearVelocity.Magnitude < 50 or PrimaryPart.AssemblyAngularVelocity.Magnitude > 50 then
+					LastPosition = PrimaryPart.CFrame
+				end
+			end)
+		end)
+	end)
+end
+coroutine.wrap(SKANOH_fake_script)()
+local function ANRZ_fake_script() -- DestroyHub.DestroyHubScript 
+	local script = Instance.new('LocalScript', DestroyHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Vortex:Destroy()
+	end)
+end
+coroutine.wrap(ANRZ_fake_script)()
+local function NGHDSHQ_fake_script() -- CloseDiscordPage.CloseDiscordPageScript 
+	local script = Instance.new('LocalScript', CloseDiscordPage)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.COPYDISCORD.Visible = false
+	end)
+end
+coroutine.wrap(NGHDSHQ_fake_script)()
+local function WYXDMS_fake_script() -- DiscordServerButton.OpenDiscordServerPage 
+	local script = Instance.new('LocalScript', DiscordServerButton)
+
+	script.Parent.Parent.DiscordServerButton.MouseButton1Click:Connect(function()
+		script.Parent.COPYDISCORD.Visible = true
+	end)
+end
+coroutine.wrap(WYXDMS_fake_script)()
+local function NWJWTX_fake_script() -- Credits.CreditsScripts 
+	local script = Instance.new('LocalScript', Credits)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("StarterGui"):SetCore("SendNotification", { 
+			Title = "Credits";
+			Text = "Blukez, killermaster999mega (Blukez Roblox Account), and people that made the FE scripts in the hub";
+			Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+		Duration = 16;
+	end)
+end
+coroutine.wrap(NWJWTX_fake_script)()
+local function NCNWRXW_fake_script() -- InfoTitle.User 
+	local script = Instance.new('LocalScript', InfoTitle)
+
+	script.Parent.Text = "Welcome,"..game.Players.LocalPlayer.Name
+end
+coroutine.wrap(NCNWRXW_fake_script)()
+local function QRQT_fake_script() -- Close.CloseInfo 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.InfoPage.Visible = false
+	end)
+end
+coroutine.wrap(QRQT_fake_script)()
+local function PIKTWN_fake_script() -- Welcome.WelcomeAnimation 
+	local script = Instance.new('LocalScript', Welcome)
+
+	script.Parent:TweenPosition(
+		UDim2.new(0.239, 0, 0.25, 0)
+	)
+	
+	wait(4)
+	
+	script.Parent:TweenPosition(
+		UDim2.new(1.239, 0, 0.25, 0)
+	)
+end
+coroutine.wrap(PIKTWN_fake_script)()
+
+--[[101 Commands]]--
+--[[Scripts for Version 2.0]]--
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "sonic" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/SyF5t70A"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "gale" then
+loadstring(game:HttpGet("https://pastebin.com/raw/PjJNLaFa"), true))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "among us" then
+loadstring(game:HttpGet("https://pastebin.com/raw/JXUMavf3", true))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "killbot" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/G24tcRXA"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "neko maid" then
+loadstring(game:HttpGetAsync("https://paste.ee/d/6bCwm/0"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "smug" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/ZuKy7HFF"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "shadow blade" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/kMYThpNG"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "fishing rod" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/Wp8C1bi7"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "sword stand" then
+loadstring(game:HttpGetAsync("https://paste.ee/r/NwGVX/0"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "neptunion" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/t0Mkc33N"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "rb neptunion" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/gDi503fB"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "wall" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/AY6kA2AV"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "achromatic glitcher" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/T7cmny7C"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "flaming cube" then
+loadstring(game:HttpGet("https://pastebin.com/raw/D7pigANg"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "spider" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/txsk1LJg"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "cop" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/VAA5Mf60"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "chips" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/b289ts36"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "joy" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/LEAQuKj0"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "ultimate meme dance" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/0QfjMKrF"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "chill" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/0QfjMKrF"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "wallwalk" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/RY9cBbdG"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "grapple" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/AyASkDEG"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "krystal dance" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/FV3HLmTH"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "stand" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/RZUwatYV"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "fling punch gui" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/YPZ0wNaw'),true))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "server admin" then
+loadstring(game:HttpGet("https://rawgithubusercontent.com/ONEReverseCard/My-Scripts/main/Netless%20Server%20Adminmd"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "ban hammer" then
+loadstring(game:HttpGetAsync("https://rawgithubusercontent.com/killermaster9999mega/thing/main/READMEmd"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "parkour god" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/xwmnPkvY"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "sniper" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/dtz7qGBg"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "ender" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/bndCgupK"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "vr sword" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/M9pnqjtn"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "elio blasio" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/xvBXu6Yc"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "minigun" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/sK9EUPE6"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "car" then
+loadstring(game:HttpGet('https://rawgithubusercontent.com/MonkoTubeYT/carscript/master/!carscriptlua',true))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "carnage" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/Ntg4PB33'),true))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "segs doll" then
+loadstring(game:HttpGet('https://pastebin.com/raw/dB6DGBB6'),true))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "titan" then
+loadstring(game:HttpGet('https://pastebin.com/raw/qSMz7Uiu'),true))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "gun" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/0Jv3udmi"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "cat" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/YLfR8Qx9"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "lutris" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/6jeamwQL"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "memeus" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/cCMJ9C82"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "pen" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/1qcpeuDm"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "xester" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/RPwyPvEi"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "caducus" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/jfryBKds"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "broomstick" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/xyHiNwtg"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "headless" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/mssZBy9j"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "head hold" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/jsZHrVFf"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "goopie" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/fKLm580i"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "orange justice" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/Efg0DgkP"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "dumb" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/xLPcieGZ"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "floss" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/JfyvWHLf"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "distract dance" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/2tJBN38N"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "russian kick" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/1P37qYeV"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "insanity powers" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/ygWAZh5A"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "zen" then
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/o5u3/Zen/main/ZenFlingFE.txt"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "hell robotics" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/cF4yBbWs"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "touch kill" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/KaYHHvh7"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "pillow" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/RbKLMpdt"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "rainbow king" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/Xfxx4qJ0"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "pp" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/MMDGHMq1"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "genocider" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/fFhLBNPU"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "abyss eye" then
+loadstring(game:HttpGet("https://paste.ee/r/tUPmo/0"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "rolex" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/qViPAp8g"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "triangle chat" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/ahBKsjJ2"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "take the l" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/VkWkuyzc"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "naruto" then
+loadstring(game:HttpGetAsync("https://hastebin.com/raw/ohequwikaf"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "aureate" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/71S0q0XT"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "blackhole" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/4zY4XvvA"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "flaming umbrella" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/g2heqqYe"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "rc tank" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/SeJPALMu"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "electro swing" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/S0ekEXPX"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "spellcaster" then
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/o5u3/Spellcaster/main/SpellcasterFE.txt"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "neko" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/ZbuaiGg5"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "racer" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/L1Fybs6W"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "pixel car" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/1Nmes8yC"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "christmas scythe" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/ddudd4kx"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "christmas sniper" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/HS8bDVzW"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "void eye" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/dNbwYjkr"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "scout" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/G8XGN0AE"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "plane" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/gGJtHawV"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "bike" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/gGJtHawV"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "vapor gun" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/BBWrfQ89"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "bobs" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/8ASG9gWB"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "noob humper" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/WkkG4LRN"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "pumpkin lord" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/Yk67SfRy"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "shooter fighter" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/KAMMdqgh"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "void duel" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/bt0e5n4j"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "john doe" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/DwhVGxTs"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "boots" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/pfShTUeY"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "penguin dance" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/UtWvDMuD"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "golem" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/bvhQ4vke"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "chair" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/j93bFLzs"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "chat spy" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/LWthUDFE"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "rtx" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/Ba5A2mXj"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "skateboard" then
+loadstring(game:HttpGet("https://pastebin.com/raw/XAXCaupJ"))()
+end
+end)
+
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "eggdog" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/rkAD6D4J"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "stilts" then
+loadstring(game:HttpGetAsync("https://ghostbin.co/paste/2eoao/raw"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "table" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/9kDrHnUd"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "pyramid" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/47FxhPef"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "gamer" then
+loadstring(game:HttpGetAsync("https://paste.ee/d/6OYEg/0"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "hacker x" then
+loadstring(game:HttpGetAsync("https://paste.ee/d/fPQbL/0"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "drone" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/GriadDUx"))()
+end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+if CmdBox.Text == "vr" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/uZWAvTxC"))()
+end
+end)
