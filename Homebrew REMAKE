@@ -1,0 +1,2572 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local HomebrewCRACKED = Instance.new("ScreenGui")
+local Load = Instance.new("Frame")
+local FrameOfScrollingFrame = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Top = Instance.new("Frame")
+local Logo = Instance.new("ImageLabel")
+local LoadX = Instance.new("TextLabel")
+local Load_2 = Instance.new("TextLabel")
+local Line = Instance.new("Frame")
+local SubTitle = Instance.new("TextLabel")
+local Title = Instance.new("TextLabel")
+local AnimationText = Instance.new("TextLabel")
+local AnimationText1 = Instance.new("TextLabel")
+local AnimationText2 = Instance.new("TextLabel")
+local AnimationText3 = Instance.new("TextLabel")
+local Main = Instance.new("Frame")
+local TopBar = Instance.new("Frame")
+local CommandLogo = Instance.new("ImageLabel")
+local X = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local _1 = Instance.new("TextLabel")
+local _2 = Instance.new("TextLabel")
+local lol = Instance.new("TextLabel")
+local CmdBox = Instance.new("TextBox")
+local _4 = Instance.new("TextLabel")
+local Execute = Instance.new("TextButton")
+local PositionPlaceHolder = Instance.new("Frame")
+local Cmds = Instance.new("Frame")
+local TopBarCmds = Instance.new("Frame")
+local Logo_2 = Instance.new("ImageLabel")
+local LoadCmds = Instance.new("TextLabel")
+local CloseCmds = Instance.new("TextButton")
+local ScrollSizerCmds = Instance.new("Frame")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+local TextLabel_23 = Instance.new("TextLabel")
+local TextLabel_24 = Instance.new("TextLabel")
+local TextLabel_25 = Instance.new("TextLabel")
+local TextLabel_26 = Instance.new("TextLabel")
+local TextLabel_27 = Instance.new("TextLabel")
+local TextLabel_28 = Instance.new("TextLabel")
+local TextLabel_29 = Instance.new("TextLabel")
+local TextLabel_30 = Instance.new("TextLabel")
+local TextLabel_31 = Instance.new("TextLabel")
+local TextLabel_32 = Instance.new("TextLabel")
+local TextLabel_33 = Instance.new("TextLabel")
+local TextLabel_34 = Instance.new("TextLabel")
+local TextLabel_35 = Instance.new("TextLabel")
+local TextLabel_36 = Instance.new("TextLabel")
+local TextLabel_37 = Instance.new("TextLabel")
+local TextLabel_38 = Instance.new("TextLabel")
+local TextLabel_39 = Instance.new("TextLabel")
+local TextLabel_40 = Instance.new("TextLabel")
+local TextLabel_41 = Instance.new("TextLabel")
+local TextLabel_42 = Instance.new("TextLabel")
+local TextLabel_43 = Instance.new("TextLabel")
+local TextLabel_44 = Instance.new("TextLabel")
+local TextLabel_45 = Instance.new("TextLabel")
+local TextLabel_46 = Instance.new("TextLabel")
+local TextLabel_47 = Instance.new("TextLabel")
+local TextLabel_48 = Instance.new("TextLabel")
+local TextLabel_49 = Instance.new("TextLabel")
+local TextLabel_50 = Instance.new("TextLabel")
+local TextLabel_51 = Instance.new("TextLabel")
+local TextLabel_52 = Instance.new("TextLabel")
+local TextLabel_53 = Instance.new("TextLabel")
+local TextLabel_54 = Instance.new("TextLabel")
+local TextLabel_55 = Instance.new("TextLabel")
+local TextLabel_56 = Instance.new("TextLabel")
+local TextLabel_57 = Instance.new("TextLabel")
+local TextLabel_58 = Instance.new("TextLabel")
+local TextLabel_59 = Instance.new("TextLabel")
+local TextLabel_60 = Instance.new("TextLabel")
+local TextLabel_61 = Instance.new("TextLabel")
+local TextLabel_62 = Instance.new("TextLabel")
+local TextLabel_63 = Instance.new("TextLabel")
+local TextLabel_64 = Instance.new("TextLabel")
+local TextLabel_65 = Instance.new("TextLabel")
+local TextLabel_66 = Instance.new("TextLabel")
+local TextLabel_67 = Instance.new("TextLabel")
+local TextLabel_68 = Instance.new("TextLabel")
+local TextLabel_69 = Instance.new("TextLabel")
+local TextLabel_70 = Instance.new("TextLabel")
+local TextLabel_71 = Instance.new("TextLabel")
+local TextLabel_72 = Instance.new("TextLabel")
+local TextLabel_73 = Instance.new("TextLabel")
+local TextLabel_74 = Instance.new("TextLabel")
+local TextLabel_75 = Instance.new("TextLabel")
+local TextLabel_76 = Instance.new("TextLabel")
+local TextLabel_77 = Instance.new("TextLabel")
+local TextLabel_78 = Instance.new("TextLabel")
+local TextLabel_79 = Instance.new("TextLabel")
+local TextLabel_80 = Instance.new("TextLabel")
+local TextLabel_81 = Instance.new("TextLabel")
+local TextLabel_82 = Instance.new("TextLabel")
+local TextLabel_83 = Instance.new("TextLabel")
+local TextLabel_84 = Instance.new("TextLabel")
+local TextLabel_85 = Instance.new("TextLabel")
+local TextLabel_86 = Instance.new("TextLabel")
+local TextLabel_87 = Instance.new("TextLabel")
+local TextLabel_88 = Instance.new("TextLabel")
+local TextLabel_89 = Instance.new("TextLabel")
+local TextLabel_90 = Instance.new("TextLabel")
+local TextLabel_91 = Instance.new("TextLabel")
+local TextLabel_92 = Instance.new("TextLabel")
+local TextLabel_93 = Instance.new("TextLabel")
+local TextLabel_94 = Instance.new("TextLabel")
+local TextLabel_95 = Instance.new("TextLabel")
+local TextLabel_96 = Instance.new("TextLabel")
+local TextLabel_97 = Instance.new("TextLabel")
+local TextLabel_98 = Instance.new("TextLabel")
+local TextLabel_99 = Instance.new("TextLabel")
+local TextLabel_100 = Instance.new("TextLabel")
+
+--Properties:
+
+HomebrewCRACKED.Name = "HomebrewCRACKED"
+HomebrewCRACKED.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+HomebrewCRACKED.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+HomebrewCRACKED.ResetOnSpawn = false
+
+Load.Name = "Load"
+Load.Parent = HomebrewCRACKED
+Load.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
+Load.BackgroundTransparency = 1.000
+Load.BorderSizePixel = 0
+Load.Position = UDim2.new(0.367288709, 0, 0.333730668, 0)
+Load.Size = UDim2.new(0, 489, 0, 271)
+Load.Visible = false
+
+FrameOfScrollingFrame.Name = "FrameOfScrollingFrame"
+FrameOfScrollingFrame.Parent = Load
+FrameOfScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FrameOfScrollingFrame.BackgroundTransparency = 1.000
+FrameOfScrollingFrame.Position = UDim2.new(0, 0, 0.505535066, 0)
+FrameOfScrollingFrame.Size = UDim2.new(0, 489, 0, 132)
+
+ScrollingFrame.Parent = FrameOfScrollingFrame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, -1.03787875, 0)
+ScrollingFrame.Size = UDim2.new(0, 489, 0, 1)
+ScrollingFrame.ScrollBarThickness = 0
+
+Top.Name = "Top"
+Top.Parent = ScrollingFrame
+Top.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Top.BorderSizePixel = 0
+Top.Size = UDim2.new(0, 489, 0, 28)
+
+Logo.Name = "Logo"
+Logo.Parent = Top
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BorderSizePixel = 0
+Logo.Size = UDim2.new(0, 143, 0, 28)
+Logo.Image = "http://www.roblox.com/asset/?id=7166515488"
+
+LoadX.Name = "LoadX"
+LoadX.Parent = Top
+LoadX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LoadX.BackgroundTransparency = 1.000
+LoadX.Position = UDim2.new(0.862985671, 0, 0, 0)
+LoadX.Size = UDim2.new(0, 101, 0, 28)
+LoadX.Font = Enum.Font.SourceSansLight
+LoadX.Text = "X"
+LoadX.TextColor3 = Color3.fromRGB(255, 255, 255)
+LoadX.TextScaled = true
+LoadX.TextSize = 14.000
+LoadX.TextWrapped = true
+
+Load_2.Name = "Load-"
+Load_2.Parent = Top
+Load_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Load_2.BackgroundTransparency = 1.000
+Load_2.Position = UDim2.new(0.813905895, 0, 0, 0)
+Load_2.Size = UDim2.new(0, 101, 0, 28)
+Load_2.Font = Enum.Font.SourceSansLight
+Load_2.Text = "-"
+Load_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Load_2.TextScaled = true
+Load_2.TextSize = 14.000
+Load_2.TextWrapped = true
+
+Line.Name = "Line"
+Line.Parent = ScrollingFrame
+Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Line.Position = UDim2.new(0.108384453, 0, 0.63257587, 0)
+Line.Size = UDim2.new(0, 383, 0, 0)
+
+SubTitle.Name = "SubTitle"
+SubTitle.Parent = ScrollingFrame
+SubTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SubTitle.BackgroundTransparency = 1.000
+SubTitle.Position = UDim2.new(0.255623728, 0, 0.41582492, 0)
+SubTitle.Size = UDim2.new(0, 237, 0, 52)
+SubTitle.Font = Enum.Font.SourceSansLight
+SubTitle.Text = ""
+SubTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+SubTitle.TextScaled = true
+SubTitle.TextSize = 14.000
+SubTitle.TextWrapped = true
+
+Title.Name = "Title"
+Title.Parent = ScrollingFrame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.0858895704, 0, 0.173316509, 0)
+Title.Size = UDim2.new(0, 405, 0, 89)
+Title.Font = Enum.Font.SourceSansLight
+Title.Text = "COMMAND PROMPT"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+AnimationText.Name = "AnimationText"
+AnimationText.Parent = ScrollingFrame
+AnimationText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnimationText.BackgroundTransparency = 1.000
+AnimationText.Position = UDim2.new(0.276073635, 0, 3.6730001, 0)
+AnimationText.Size = UDim2.new(0, 216, 0, 32)
+AnimationText.Font = Enum.Font.SourceSansLight
+AnimationText.Text = "Made by Blukez..."
+AnimationText.TextColor3 = Color3.fromRGB(255, 255, 255)
+AnimationText.TextScaled = true
+AnimationText.TextSize = 14.000
+AnimationText.TextWrapped = true
+
+AnimationText1.Name = "AnimationText1"
+AnimationText1.Parent = ScrollingFrame
+AnimationText1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnimationText1.BackgroundTransparency = 1.000
+AnimationText1.Position = UDim2.new(0.276073635, 0, 3.6730001, 0)
+AnimationText1.Size = UDim2.new(0, 216, 0, 32)
+AnimationText1.Font = Enum.Font.SourceSansLight
+AnimationText1.Text = "Checking Acsess..."
+AnimationText1.TextColor3 = Color3.fromRGB(255, 255, 255)
+AnimationText1.TextScaled = true
+AnimationText1.TextSize = 14.000
+AnimationText1.TextWrapped = true
+
+AnimationText2.Name = "AnimationText2"
+AnimationText2.Parent = ScrollingFrame
+AnimationText2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnimationText2.BackgroundTransparency = 1.000
+AnimationText2.Position = UDim2.new(0.276073635, 0, 3.6730001, 0)
+AnimationText2.Size = UDim2.new(0, 216, 0, 32)
+AnimationText2.Font = Enum.Font.SourceSansLight
+AnimationText2.Text = "Acsess Granted!"
+AnimationText2.TextColor3 = Color3.fromRGB(0, 255, 0)
+AnimationText2.TextScaled = true
+AnimationText2.TextSize = 14.000
+AnimationText2.TextWrapped = true
+
+AnimationText3.Name = "AnimationText3"
+AnimationText3.Parent = ScrollingFrame
+AnimationText3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnimationText3.BackgroundTransparency = 1.000
+AnimationText3.Position = UDim2.new(0.276073635, 0, 3.6730001, 0)
+AnimationText3.Size = UDim2.new(0, 216, 0, 32)
+AnimationText3.Font = Enum.Font.SourceSansLight
+AnimationText3.Text = "Welcome,"
+AnimationText3.TextColor3 = Color3.fromRGB(255, 255, 255)
+AnimationText3.TextScaled = true
+AnimationText3.TextSize = 14.000
+AnimationText3.TextWrapped = true
+
+Main.Name = "Main"
+Main.Parent = HomebrewCRACKED
+Main.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.688000023, 0, 3.15400004, 0)
+Main.Size = UDim2.new(0, 503, 0, 581)
+
+TopBar.Name = "TopBar"
+TopBar.Parent = Main
+TopBar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TopBar.BorderSizePixel = 0
+TopBar.Size = UDim2.new(0, 498, 0, 31)
+
+CommandLogo.Name = "CommandLogo"
+CommandLogo.Parent = TopBar
+CommandLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CommandLogo.BorderColor3 = Color3.fromRGB(10, 10, 10)
+CommandLogo.BorderSizePixel = 0
+CommandLogo.Size = UDim2.new(0, 147, 0, 31)
+CommandLogo.Image = "http://www.roblox.com/asset/?id=7166515488"
+
+X.Name = "X"
+X.Parent = TopBar
+X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X.BackgroundTransparency = 1.000
+X.BorderSizePixel = 0
+X.Position = UDim2.new(0.937750995, 0, 0.0967741907, 0)
+X.Size = UDim2.new(0, 36, 0, 25)
+X.Font = Enum.Font.SourceSansLight
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 255, 255)
+X.TextScaled = true
+X.TextSize = 14.000
+X.TextWrapped = true
+
+TextButton.Name = "-"
+TextButton.Parent = TopBar
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.887550175, 0, 0.0967741907, 0)
+TextButton.Size = UDim2.new(0, 36, 0, 25)
+TextButton.Font = Enum.Font.SourceSansLight
+TextButton.Text = "-"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+_1.Name = "1"
+_1.Parent = Main
+_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1.BackgroundTransparency = 1.000
+_1.Position = UDim2.new(0, 0, 0.0843373537, 0)
+_1.Size = UDim2.new(0, 408, 0, 18)
+_1.Font = Enum.Font.SourceSans
+_1.Text = "[INFO] Command Prompt Homebrew V4 CRACKED"
+_1.TextColor3 = Color3.fromRGB(255, 255, 255)
+_1.TextScaled = true
+_1.TextSize = 14.000
+_1.TextWrapped = true
+_1.TextXAlignment = Enum.TextXAlignment.Left
+_1.TextYAlignment = Enum.TextYAlignment.Top
+
+_2.Name = "2"
+_2.Parent = Main
+_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2.BackgroundTransparency = 1.000
+_2.Position = UDim2.new(0, 0, 0.0533562824, 0)
+_2.Size = UDim2.new(0, 408, 0, 18)
+_2.Font = Enum.Font.SourceSans
+_2.Text = "[CREDITS] among SUS#6252 aka Blukez"
+_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+_2.TextScaled = true
+_2.TextSize = 14.000
+_2.TextWrapped = true
+_2.TextXAlignment = Enum.TextXAlignment.Left
+_2.TextYAlignment = Enum.TextYAlignment.Top
+
+lol.Name = "lol"
+lol.Parent = Main
+lol.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lol.BackgroundTransparency = 1.000
+lol.Position = UDim2.new(0, 0, 0.187607586, 0)
+lol.Size = UDim2.new(0, 432, 0, 18)
+lol.Font = Enum.Font.SourceSans
+lol.Text = "C:\\ Users\\Admin:"
+lol.TextColor3 = Color3.fromRGB(255, 255, 255)
+lol.TextScaled = true
+lol.TextSize = 14.000
+lol.TextWrapped = true
+lol.TextXAlignment = Enum.TextXAlignment.Left
+lol.TextYAlignment = Enum.TextYAlignment.Top
+
+CmdBox.Name = "CmdBox"
+CmdBox.Parent = lol
+CmdBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CmdBox.BackgroundTransparency = 1.000
+CmdBox.Position = UDim2.new(0.247685179, 0, -1.05555558, 0)
+CmdBox.Size = UDim2.new(0, 396, 0, 56)
+CmdBox.Font = Enum.Font.SourceSans
+CmdBox.Text = ""
+CmdBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+CmdBox.TextSize = 18.000
+CmdBox.TextWrapped = true
+CmdBox.TextXAlignment = Enum.TextXAlignment.Left
+
+_4.Name = "4"
+_4.Parent = Main
+_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4.BackgroundTransparency = 1.000
+_4.Position = UDim2.new(0, 0, 0.115318418, 0)
+_4.Size = UDim2.new(0, 408, 0, 18)
+_4.Font = Enum.Font.SourceSans
+_4.Text = "[INFO] Type \"cmds\" to see commands. Thanks for using! :)"
+_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+_4.TextScaled = true
+_4.TextSize = 14.000
+_4.TextWrapped = true
+_4.TextXAlignment = Enum.TextXAlignment.Left
+_4.TextYAlignment = Enum.TextYAlignment.Top
+
+Execute.Name = "Execute"
+Execute.Parent = Main
+Execute.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Execute.BackgroundTransparency = 1.000
+Execute.Position = UDim2.new(0.0258449297, 0, 0.891566277, 0)
+Execute.Size = UDim2.new(0, 181, 0, 52)
+Execute.Font = Enum.Font.SourceSansLight
+Execute.Text = "EXECUTE"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextScaled = true
+Execute.TextSize = 14.000
+Execute.TextWrapped = true
+
+PositionPlaceHolder.Name = "PositionPlaceHolder"
+PositionPlaceHolder.Parent = HomebrewCRACKED
+PositionPlaceHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PositionPlaceHolder.Position = UDim2.new(0.688000023, 0, 0.153999999, 0)
+PositionPlaceHolder.Size = UDim2.new(0, 502, 0, 580)
+PositionPlaceHolder.Visible = false
+
+Cmds.Name = "Cmds"
+Cmds.Parent = HomebrewCRACKED
+Cmds.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Cmds.BackgroundTransparency = 1.000
+Cmds.BorderSizePixel = 0
+Cmds.Position = UDim2.new(0.353191465, 0, 0.328963041, 0)
+Cmds.Size = UDim2.new(0, 483, 0, 287)
+Cmds.Visible = false
+
+TopBarCmds.Name = "TopBarCmds"
+TopBarCmds.Parent = Cmds
+TopBarCmds.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TopBarCmds.BorderSizePixel = 0
+TopBarCmds.Size = UDim2.new(0, 483, 0, 30)
+
+Logo_2.Name = "Logo"
+Logo_2.Parent = TopBarCmds
+Logo_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo_2.BorderSizePixel = 0
+Logo_2.Size = UDim2.new(0, 146, 0, 30)
+Logo_2.Image = "http://www.roblox.com/asset/?id=7166515488"
+
+LoadCmds.Name = "Load-Cmds"
+LoadCmds.Parent = TopBarCmds
+LoadCmds.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LoadCmds.BackgroundTransparency = 1.000
+LoadCmds.Position = UDim2.new(0.813905895, 0, 0, 0)
+LoadCmds.Size = UDim2.new(0, 101, 0, 28)
+LoadCmds.Font = Enum.Font.SourceSansLight
+LoadCmds.Text = "-"
+LoadCmds.TextColor3 = Color3.fromRGB(255, 255, 255)
+LoadCmds.TextScaled = true
+LoadCmds.TextSize = 14.000
+LoadCmds.TextWrapped = true
+
+CloseCmds.Name = "CloseCmds"
+CloseCmds.Parent = TopBarCmds
+CloseCmds.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseCmds.BackgroundTransparency = 1.000
+CloseCmds.Position = UDim2.new(0.797101319, 0, 0, 0)
+CloseCmds.Size = UDim2.new(0, 165, 0, 28)
+CloseCmds.Font = Enum.Font.SourceSansLight
+CloseCmds.Text = "X"
+CloseCmds.TextColor3 = Color3.fromRGB(255, 255, 255)
+CloseCmds.TextScaled = true
+CloseCmds.TextSize = 14.000
+CloseCmds.TextWrapped = true
+
+ScrollSizerCmds.Name = "ScrollSizerCmds"
+ScrollSizerCmds.Parent = Cmds
+ScrollSizerCmds.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollSizerCmds.BackgroundTransparency = 1.000
+ScrollSizerCmds.Position = UDim2.new(0, 0, -0.745644629, 0)
+ScrollSizerCmds.Size = UDim2.new(0, 483, 6, 200)
+
+ScrollingFrame_2.Parent = ScrollSizerCmds
+ScrollingFrame_2.Active = true
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+ScrollingFrame_2.BorderSizePixel = 0
+ScrollingFrame_2.Position = UDim2.new(0, 0, 0.126903728, 0)
+ScrollingFrame_2.Size = UDim2.new(0, 483, 0, 0)
+ScrollingFrame_2.CanvasPosition = Vector2.new(0, 1637)
+
+TextLabel.Parent = ScrollingFrame_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0641821921, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 421, 0, 39)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "sonic"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = ScrollingFrame_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0641821921, 0, 0.00996198691, 0)
+TextLabel_2.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "gale"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = ScrollingFrame_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0641821921, 0, 0.0199239738, 0)
+TextLabel_3.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "among us"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = ScrollingFrame_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0641821921, 0, 0.0298859589, 0)
+TextLabel_4.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "killbot"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = ScrollingFrame_2
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0641821921, 0, 0.0399338342, 0)
+TextLabel_5.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "neko maid"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = ScrollingFrame_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0641821921, 0, 0.0499479696, 0)
+TextLabel_6.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "smug"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = ScrollingFrame_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.0641821921, 0, 0.0599099547, 0)
+TextLabel_7.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "shadow blade"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+TextLabel_8.Parent = ScrollingFrame_2
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.0641821921, 0, 0.0698719472, 0)
+TextLabel_8.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "fishing rod"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+TextLabel_9.Parent = ScrollingFrame_2
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.0641821921, 0, 0.0798339248, 0)
+TextLabel_9.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "sword stand"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+TextLabel_10.Parent = ScrollingFrame_2
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.0641821921, 0, 0.0898818076, 0)
+TextLabel_10.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "neptunion"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+TextLabel_11.Parent = ScrollingFrame_2
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.0641821921, 0, 0.0998959392, 0)
+TextLabel_11.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "rb neptunion"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+TextLabel_12.Parent = ScrollingFrame_2
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.0641821921, 0, 0.109857924, 0)
+TextLabel_12.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "wall"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+TextLabel_13.Parent = ScrollingFrame_2
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.0641821921, 0, 0.119819909, 0)
+TextLabel_13.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "achromatic glitcher"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+TextLabel_14.Parent = ScrollingFrame_2
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.0641821921, 0, 0.129781902, 0)
+TextLabel_14.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = "flaming cube"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+
+TextLabel_15.Parent = ScrollingFrame_2
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0.0641821921, 0, 0.95793283, 0)
+TextLabel_15.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_15.Font = Enum.Font.SourceSans
+TextLabel_15.Text = "stilts"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextWrapped = true
+
+TextLabel_16.Parent = ScrollingFrame_2
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0.0641821921, 0, 0.149843901, 0)
+TextLabel_16.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = "cop"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextWrapped = true
+
+TextLabel_17.Parent = ScrollingFrame_2
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0.0641821921, 0, 0.179729864, 0)
+TextLabel_17.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = "ultimate meme dance"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextScaled = true
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextWrapped = true
+
+TextLabel_18.Parent = ScrollingFrame_2
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(0.0641821921, 0, 0.189777747, 0)
+TextLabel_18.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_18.Font = Enum.Font.SourceSans
+TextLabel_18.Text = "chill"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextScaled = true
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextWrapped = true
+
+TextLabel_19.Parent = ScrollingFrame_2
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(0.0641821921, 0, 0.159805894, 0)
+TextLabel_19.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_19.Font = Enum.Font.SourceSans
+TextLabel_19.Text = "chips"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextScaled = true
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextWrapped = true
+
+TextLabel_20.Parent = ScrollingFrame_2
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Position = UDim2.new(0.0641821921, 0, 0.169767886, 0)
+TextLabel_20.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_20.Font = Enum.Font.SourceSans
+TextLabel_20.Text = "joy"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextScaled = true
+TextLabel_20.TextSize = 14.000
+TextLabel_20.TextWrapped = true
+
+TextLabel_21.Parent = ScrollingFrame_2
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(0.0641821921, 0, 0.199791878, 0)
+TextLabel_21.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_21.Font = Enum.Font.SourceSans
+TextLabel_21.Text = "wallwalk"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextScaled = true
+TextLabel_21.TextSize = 14.000
+TextLabel_21.TextWrapped = true
+
+TextLabel_22.Parent = ScrollingFrame_2
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(0.0641821921, 0, 0.209753871, 0)
+TextLabel_22.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_22.Font = Enum.Font.SourceSans
+TextLabel_22.Text = "grapple"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextScaled = true
+TextLabel_22.TextSize = 14.000
+TextLabel_22.TextWrapped = true
+
+TextLabel_23.Parent = ScrollingFrame_2
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Position = UDim2.new(0.0641821921, 0, 0.219715849, 0)
+TextLabel_23.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_23.Font = Enum.Font.SourceSans
+TextLabel_23.Text = "krystal dance"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextScaled = true
+TextLabel_23.TextSize = 14.000
+TextLabel_23.TextWrapped = true
+
+TextLabel_24.Parent = ScrollingFrame_2
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.Position = UDim2.new(0.0641821921, 0, 0.229677841, 0)
+TextLabel_24.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_24.Font = Enum.Font.SourceSans
+TextLabel_24.Text = "stand"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextScaled = true
+TextLabel_24.TextSize = 14.000
+TextLabel_24.TextWrapped = true
+
+TextLabel_25.Parent = ScrollingFrame_2
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.Position = UDim2.new(0.0641821921, 0, 0.239725709, 0)
+TextLabel_25.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_25.Font = Enum.Font.SourceSans
+TextLabel_25.Text = "fling punch gui"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextScaled = true
+TextLabel_25.TextSize = 14.000
+TextLabel_25.TextWrapped = true
+
+TextLabel_26.Parent = ScrollingFrame_2
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.Position = UDim2.new(0.0641821921, 0, 0.249739841, 0)
+TextLabel_26.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_26.Font = Enum.Font.SourceSans
+TextLabel_26.Text = "server admin"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextScaled = true
+TextLabel_26.TextSize = 14.000
+TextLabel_26.TextWrapped = true
+
+TextLabel_27.Parent = ScrollingFrame_2
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.Position = UDim2.new(0.0641821921, 0, 0.279625803, 0)
+TextLabel_27.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_27.Font = Enum.Font.SourceSans
+TextLabel_27.Text = "sniper"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.TextScaled = true
+TextLabel_27.TextSize = 14.000
+TextLabel_27.TextWrapped = true
+
+TextLabel_28.Parent = ScrollingFrame_2
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.BackgroundTransparency = 1.000
+TextLabel_28.Position = UDim2.new(0.0641821921, 0, 0.289673686, 0)
+TextLabel_28.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_28.Font = Enum.Font.SourceSans
+TextLabel_28.Text = "ender"
+TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.TextScaled = true
+TextLabel_28.TextSize = 14.000
+TextLabel_28.TextWrapped = true
+
+TextLabel_29.Parent = ScrollingFrame_2
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.BackgroundTransparency = 1.000
+TextLabel_29.Position = UDim2.new(0.0641821921, 0, 0.259701848, 0)
+TextLabel_29.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_29.Font = Enum.Font.SourceSans
+TextLabel_29.Text = "ban hammer"
+TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.TextScaled = true
+TextLabel_29.TextSize = 14.000
+TextLabel_29.TextWrapped = true
+
+TextLabel_30.Parent = ScrollingFrame_2
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.BackgroundTransparency = 1.000
+TextLabel_30.Position = UDim2.new(0.0641821921, 0, 0.269663811, 0)
+TextLabel_30.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_30.Font = Enum.Font.SourceSans
+TextLabel_30.Text = "parkour god"
+TextLabel_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.TextScaled = true
+TextLabel_30.TextSize = 14.000
+TextLabel_30.TextWrapped = true
+
+TextLabel_31.Parent = ScrollingFrame_2
+TextLabel_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.BackgroundTransparency = 1.000
+TextLabel_31.Position = UDim2.new(0.0641821921, 0, 0.299687803, 0)
+TextLabel_31.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_31.Font = Enum.Font.SourceSans
+TextLabel_31.Text = "vr sword"
+TextLabel_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.TextScaled = true
+TextLabel_31.TextSize = 14.000
+TextLabel_31.TextWrapped = true
+
+TextLabel_32.Parent = ScrollingFrame_2
+TextLabel_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.BackgroundTransparency = 1.000
+TextLabel_32.Position = UDim2.new(0.0641821921, 0, 0.309649825, 0)
+TextLabel_32.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_32.Font = Enum.Font.SourceSans
+TextLabel_32.Text = "caducus"
+TextLabel_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.TextScaled = true
+TextLabel_32.TextSize = 14.000
+TextLabel_32.TextWrapped = true
+
+TextLabel_33.Parent = ScrollingFrame_2
+TextLabel_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.BackgroundTransparency = 1.000
+TextLabel_33.Position = UDim2.new(0.0641821921, 0, 0.319611788, 0)
+TextLabel_33.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_33.Font = Enum.Font.SourceSans
+TextLabel_33.Text = "elio blasio"
+TextLabel_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.TextScaled = true
+TextLabel_33.TextSize = 14.000
+TextLabel_33.TextWrapped = true
+
+TextLabel_34.Parent = ScrollingFrame_2
+TextLabel_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.BackgroundTransparency = 1.000
+TextLabel_34.Position = UDim2.new(0.0641821921, 0, 0.32957378, 0)
+TextLabel_34.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_34.Font = Enum.Font.SourceSans
+TextLabel_34.Text = "minigun"
+TextLabel_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.TextScaled = true
+TextLabel_34.TextSize = 14.000
+TextLabel_34.TextWrapped = true
+
+TextLabel_35.Parent = ScrollingFrame_2
+TextLabel_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.BackgroundTransparency = 1.000
+TextLabel_35.Position = UDim2.new(0.0641821921, 0, 0.339621663, 0)
+TextLabel_35.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_35.Font = Enum.Font.SourceSans
+TextLabel_35.Text = "car"
+TextLabel_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.TextScaled = true
+TextLabel_35.TextSize = 14.000
+TextLabel_35.TextWrapped = true
+
+TextLabel_36.Parent = ScrollingFrame_2
+TextLabel_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.BackgroundTransparency = 1.000
+TextLabel_36.Position = UDim2.new(0.0641821921, 0, 0.34963578, 0)
+TextLabel_36.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_36.Font = Enum.Font.SourceSans
+TextLabel_36.Text = "carnage"
+TextLabel_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.TextScaled = true
+TextLabel_36.TextSize = 14.000
+TextLabel_36.TextWrapped = true
+
+TextLabel_37.Parent = ScrollingFrame_2
+TextLabel_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.BackgroundTransparency = 1.000
+TextLabel_37.Position = UDim2.new(0.0641821921, 0, 0.379521728, 0)
+TextLabel_37.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_37.Font = Enum.Font.SourceSans
+TextLabel_37.Text = "gun"
+TextLabel_37.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.TextScaled = true
+TextLabel_37.TextSize = 14.000
+TextLabel_37.TextWrapped = true
+
+TextLabel_38.Parent = ScrollingFrame_2
+TextLabel_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.BackgroundTransparency = 1.000
+TextLabel_38.Position = UDim2.new(0.0641821921, 0, 0.38956964, 0)
+TextLabel_38.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_38.Font = Enum.Font.SourceSans
+TextLabel_38.Text = "cat"
+TextLabel_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.TextScaled = true
+TextLabel_38.TextSize = 14.000
+TextLabel_38.TextWrapped = true
+
+TextLabel_39.Parent = ScrollingFrame_2
+TextLabel_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_39.BackgroundTransparency = 1.000
+TextLabel_39.Position = UDim2.new(0.0641821921, 0, 0.359597802, 0)
+TextLabel_39.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_39.Font = Enum.Font.SourceSans
+TextLabel_39.Text = "segs doll"
+TextLabel_39.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_39.TextScaled = true
+TextLabel_39.TextSize = 14.000
+TextLabel_39.TextWrapped = true
+
+TextLabel_40.Parent = ScrollingFrame_2
+TextLabel_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.BackgroundTransparency = 1.000
+TextLabel_40.Position = UDim2.new(0.0641821921, 0, 0.369559765, 0)
+TextLabel_40.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_40.Font = Enum.Font.SourceSans
+TextLabel_40.Text = "titan"
+TextLabel_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.TextScaled = true
+TextLabel_40.TextSize = 14.000
+TextLabel_40.TextWrapped = true
+
+TextLabel_41.Parent = ScrollingFrame_2
+TextLabel_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_41.BackgroundTransparency = 1.000
+TextLabel_41.Position = UDim2.new(0.0641821921, 0, 0.399063468, 0)
+TextLabel_41.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_41.Font = Enum.Font.SourceSans
+TextLabel_41.Text = "lutris"
+TextLabel_41.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_41.TextScaled = true
+TextLabel_41.TextSize = 14.000
+TextLabel_41.TextWrapped = true
+
+TextLabel_42.Parent = ScrollingFrame_2
+TextLabel_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.BackgroundTransparency = 1.000
+TextLabel_42.Position = UDim2.new(0.0641821921, 0, 0.40902549, 0)
+TextLabel_42.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_42.Font = Enum.Font.SourceSans
+TextLabel_42.Text = "memeus"
+TextLabel_42.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.TextScaled = true
+TextLabel_42.TextSize = 14.000
+TextLabel_42.TextWrapped = true
+
+TextLabel_43.Parent = ScrollingFrame_2
+TextLabel_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_43.BackgroundTransparency = 1.000
+TextLabel_43.Position = UDim2.new(0.0641821921, 0, 0.418987453, 0)
+TextLabel_43.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_43.Font = Enum.Font.SourceSans
+TextLabel_43.Text = "pen"
+TextLabel_43.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_43.TextScaled = true
+TextLabel_43.TextSize = 14.000
+TextLabel_43.TextWrapped = true
+
+TextLabel_44.Parent = ScrollingFrame_2
+TextLabel_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_44.BackgroundTransparency = 1.000
+TextLabel_44.Position = UDim2.new(0.0641821921, 0, 0.428949416, 0)
+TextLabel_44.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_44.Font = Enum.Font.SourceSans
+TextLabel_44.Text = "xester"
+TextLabel_44.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_44.TextScaled = true
+TextLabel_44.TextSize = 14.000
+TextLabel_44.TextWrapped = true
+
+TextLabel_45.Parent = ScrollingFrame_2
+TextLabel_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_45.BackgroundTransparency = 1.000
+TextLabel_45.Position = UDim2.new(0.0641821921, 0, 0.438997328, 0)
+TextLabel_45.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_45.Font = Enum.Font.SourceSans
+TextLabel_45.Text = "broomstick"
+TextLabel_45.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_45.TextScaled = true
+TextLabel_45.TextSize = 14.000
+TextLabel_45.TextWrapped = true
+
+TextLabel_46.Parent = ScrollingFrame_2
+TextLabel_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_46.BackgroundTransparency = 1.000
+TextLabel_46.Position = UDim2.new(0.0641821921, 0, 0.449011445, 0)
+TextLabel_46.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_46.Font = Enum.Font.SourceSans
+TextLabel_46.Text = "headless"
+TextLabel_46.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_46.TextScaled = true
+TextLabel_46.TextSize = 14.000
+TextLabel_46.TextWrapped = true
+
+TextLabel_47.Parent = ScrollingFrame_2
+TextLabel_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_47.BackgroundTransparency = 1.000
+TextLabel_47.Position = UDim2.new(0.0641821921, 0, 0.478897393, 0)
+TextLabel_47.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_47.Font = Enum.Font.SourceSans
+TextLabel_47.Text = "orange justace"
+TextLabel_47.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_47.TextScaled = true
+TextLabel_47.TextSize = 14.000
+TextLabel_47.TextWrapped = true
+
+TextLabel_48.Parent = ScrollingFrame_2
+TextLabel_48.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_48.BackgroundTransparency = 1.000
+TextLabel_48.Position = UDim2.new(0.0641821921, 0, 0.488945305, 0)
+TextLabel_48.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_48.Font = Enum.Font.SourceSans
+TextLabel_48.Text = "dumb"
+TextLabel_48.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_48.TextScaled = true
+TextLabel_48.TextSize = 14.000
+TextLabel_48.TextWrapped = true
+
+TextLabel_49.Parent = ScrollingFrame_2
+TextLabel_49.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_49.BackgroundTransparency = 1.000
+TextLabel_49.Position = UDim2.new(0.0641821921, 0, 0.458973467, 0)
+TextLabel_49.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_49.Font = Enum.Font.SourceSans
+TextLabel_49.Text = "head hold"
+TextLabel_49.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_49.TextScaled = true
+TextLabel_49.TextSize = 14.000
+TextLabel_49.TextWrapped = true
+
+TextLabel_50.Parent = ScrollingFrame_2
+TextLabel_50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_50.BackgroundTransparency = 1.000
+TextLabel_50.Position = UDim2.new(0.0641821921, 0, 0.46893543, 0)
+TextLabel_50.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_50.Font = Enum.Font.SourceSans
+TextLabel_50.Text = "goopie"
+TextLabel_50.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_50.TextScaled = true
+TextLabel_50.TextSize = 14.000
+TextLabel_50.TextWrapped = true
+
+TextLabel_51.Parent = ScrollingFrame_2
+TextLabel_51.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_51.BackgroundTransparency = 1.000
+TextLabel_51.Position = UDim2.new(0.0641821921, 0, 0.498959422, 0)
+TextLabel_51.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_51.Font = Enum.Font.SourceSans
+TextLabel_51.Text = "floss"
+TextLabel_51.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_51.TextScaled = true
+TextLabel_51.TextSize = 14.000
+TextLabel_51.TextWrapped = true
+
+TextLabel_52.Parent = ScrollingFrame_2
+TextLabel_52.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_52.BackgroundTransparency = 1.000
+TextLabel_52.Position = UDim2.new(0.0641821921, 0, 0.508921385, 0)
+TextLabel_52.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_52.Font = Enum.Font.SourceSans
+TextLabel_52.Text = "distract dance"
+TextLabel_52.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_52.TextScaled = true
+TextLabel_52.TextSize = 14.000
+TextLabel_52.TextWrapped = true
+
+TextLabel_53.Parent = ScrollingFrame_2
+TextLabel_53.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_53.BackgroundTransparency = 1.000
+TextLabel_53.Position = UDim2.new(0.0641821921, 0, 0.518883407, 0)
+TextLabel_53.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_53.Font = Enum.Font.SourceSans
+TextLabel_53.Text = "russian kick"
+TextLabel_53.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_53.TextScaled = true
+TextLabel_53.TextSize = 14.000
+TextLabel_53.TextWrapped = true
+
+TextLabel_54.Parent = ScrollingFrame_2
+TextLabel_54.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_54.BackgroundTransparency = 1.000
+TextLabel_54.Position = UDim2.new(0.0641821921, 0, 0.52884537, 0)
+TextLabel_54.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_54.Font = Enum.Font.SourceSans
+TextLabel_54.Text = "insanity powers"
+TextLabel_54.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_54.TextScaled = true
+TextLabel_54.TextSize = 14.000
+TextLabel_54.TextWrapped = true
+
+TextLabel_55.Parent = ScrollingFrame_2
+TextLabel_55.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_55.BackgroundTransparency = 1.000
+TextLabel_55.Position = UDim2.new(0.0641821921, 0, 0.538893223, 0)
+TextLabel_55.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_55.Font = Enum.Font.SourceSans
+TextLabel_55.Text = "zen"
+TextLabel_55.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_55.TextScaled = true
+TextLabel_55.TextSize = 14.000
+TextLabel_55.TextWrapped = true
+
+TextLabel_56.Parent = ScrollingFrame_2
+TextLabel_56.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_56.BackgroundTransparency = 1.000
+TextLabel_56.Position = UDim2.new(0.0641821921, 0, 0.548907399, 0)
+TextLabel_56.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_56.Font = Enum.Font.SourceSans
+TextLabel_56.Text = "hell robotics"
+TextLabel_56.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_56.TextScaled = true
+TextLabel_56.TextSize = 14.000
+TextLabel_56.TextWrapped = true
+
+TextLabel_57.Parent = ScrollingFrame_2
+TextLabel_57.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_57.BackgroundTransparency = 1.000
+TextLabel_57.Position = UDim2.new(0.0641821921, 0, 0.578793347, 0)
+TextLabel_57.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_57.Font = Enum.Font.SourceSans
+TextLabel_57.Text = "rainbow king"
+TextLabel_57.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_57.TextScaled = true
+TextLabel_57.TextSize = 14.000
+TextLabel_57.TextWrapped = true
+
+TextLabel_58.Parent = ScrollingFrame_2
+TextLabel_58.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_58.BackgroundTransparency = 1.000
+TextLabel_58.Position = UDim2.new(0.0641821921, 0, 0.5888412, 0)
+TextLabel_58.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_58.Font = Enum.Font.SourceSans
+TextLabel_58.Text = "pp"
+TextLabel_58.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_58.TextScaled = true
+TextLabel_58.TextSize = 14.000
+TextLabel_58.TextWrapped = true
+
+TextLabel_59.Parent = ScrollingFrame_2
+TextLabel_59.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_59.BackgroundTransparency = 1.000
+TextLabel_59.Position = UDim2.new(0.0641821921, 0, 0.558869362, 0)
+TextLabel_59.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_59.Font = Enum.Font.SourceSans
+TextLabel_59.Text = "touch kill"
+TextLabel_59.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_59.TextScaled = true
+TextLabel_59.TextSize = 14.000
+TextLabel_59.TextWrapped = true
+
+TextLabel_60.Parent = ScrollingFrame_2
+TextLabel_60.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_60.BackgroundTransparency = 1.000
+TextLabel_60.Position = UDim2.new(0.0641821921, 0, 0.568831384, 0)
+TextLabel_60.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_60.Font = Enum.Font.SourceSans
+TextLabel_60.Text = "pillow"
+TextLabel_60.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_60.TextScaled = true
+TextLabel_60.TextSize = 14.000
+TextLabel_60.TextWrapped = true
+
+TextLabel_61.Parent = ScrollingFrame_2
+TextLabel_61.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_61.BackgroundTransparency = 1.000
+TextLabel_61.Position = UDim2.new(0.0641821921, 0, 0.608817339, 0)
+TextLabel_61.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_61.Font = Enum.Font.SourceSans
+TextLabel_61.Text = "aybass eye"
+TextLabel_61.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_61.TextScaled = true
+TextLabel_61.TextSize = 14.000
+TextLabel_61.TextWrapped = true
+
+TextLabel_62.Parent = ScrollingFrame_2
+TextLabel_62.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_62.BackgroundTransparency = 1.000
+TextLabel_62.Position = UDim2.new(0.0641821921, 0, 0.678689241, 0)
+TextLabel_62.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_62.Font = Enum.Font.SourceSans
+TextLabel_62.Text = "flaming unbrella"
+TextLabel_62.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_62.TextScaled = true
+TextLabel_62.TextSize = 14.000
+TextLabel_62.TextWrapped = true
+
+TextLabel_63.Parent = ScrollingFrame_2
+TextLabel_63.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_63.BackgroundTransparency = 1.000
+TextLabel_63.Position = UDim2.new(0.0641821921, 0, 0.598855376, 0)
+TextLabel_63.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_63.Font = Enum.Font.SourceSans
+TextLabel_63.Text = "genocider"
+TextLabel_63.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_63.TextScaled = true
+TextLabel_63.TextSize = 14.000
+TextLabel_63.TextWrapped = true
+
+TextLabel_64.Parent = ScrollingFrame_2
+TextLabel_64.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_64.BackgroundTransparency = 1.000
+TextLabel_64.Position = UDim2.new(0.0641821921, 0, 0.638789177, 0)
+TextLabel_64.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_64.Font = Enum.Font.SourceSans
+TextLabel_64.Text = "take the l"
+TextLabel_64.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_64.TextScaled = true
+TextLabel_64.TextSize = 14.000
+TextLabel_64.TextWrapped = true
+
+TextLabel_65.Parent = ScrollingFrame_2
+TextLabel_65.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_65.BackgroundTransparency = 1.000
+TextLabel_65.Position = UDim2.new(0.0641821921, 0, 0.618779302, 0)
+TextLabel_65.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_65.Font = Enum.Font.SourceSans
+TextLabel_65.Text = "rolex"
+TextLabel_65.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_65.TextScaled = true
+TextLabel_65.TextSize = 14.000
+TextLabel_65.TextWrapped = true
+
+TextLabel_66.Parent = ScrollingFrame_2
+TextLabel_66.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_66.BackgroundTransparency = 1.000
+TextLabel_66.Position = UDim2.new(0.0641821921, 0, 0.648803353, 0)
+TextLabel_66.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_66.Font = Enum.Font.SourceSans
+TextLabel_66.Text = "naruto"
+TextLabel_66.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_66.TextScaled = true
+TextLabel_66.TextSize = 14.000
+TextLabel_66.TextWrapped = true
+
+TextLabel_67.Parent = ScrollingFrame_2
+TextLabel_67.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_67.BackgroundTransparency = 1.000
+TextLabel_67.Position = UDim2.new(0.0641821921, 0, 0.628741384, 0)
+TextLabel_67.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_67.Font = Enum.Font.SourceSans
+TextLabel_67.Text = "triangle chat"
+TextLabel_67.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_67.TextScaled = true
+TextLabel_67.TextSize = 14.000
+TextLabel_67.TextWrapped = true
+
+TextLabel_68.Parent = ScrollingFrame_2
+TextLabel_68.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_68.BackgroundTransparency = 1.000
+TextLabel_68.Position = UDim2.new(0.0641821921, 0, 0.658765316, 0)
+TextLabel_68.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_68.Font = Enum.Font.SourceSans
+TextLabel_68.Text = "aureate"
+TextLabel_68.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_68.TextScaled = true
+TextLabel_68.TextSize = 14.000
+TextLabel_68.TextWrapped = true
+
+TextLabel_69.Parent = ScrollingFrame_2
+TextLabel_69.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_69.BackgroundTransparency = 1.000
+TextLabel_69.Position = UDim2.new(0.0641821921, 0, 0.668727279, 0)
+TextLabel_69.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_69.Font = Enum.Font.SourceSans
+TextLabel_69.Text = "black hole"
+TextLabel_69.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_69.TextScaled = true
+TextLabel_69.TextSize = 14.000
+TextLabel_69.TextWrapped = true
+
+TextLabel_70.Parent = ScrollingFrame_2
+TextLabel_70.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_70.BackgroundTransparency = 1.000
+TextLabel_70.Position = UDim2.new(0.0641821921, 0, 0.688737154, 0)
+TextLabel_70.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_70.Font = Enum.Font.SourceSans
+TextLabel_70.Text = "rc tank"
+TextLabel_70.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_70.TextScaled = true
+TextLabel_70.TextSize = 14.000
+TextLabel_70.TextWrapped = true
+
+TextLabel_71.Parent = ScrollingFrame_2
+TextLabel_71.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_71.BackgroundTransparency = 1.000
+TextLabel_71.Position = UDim2.new(0.0641821921, 0, 0.708713293, 0)
+TextLabel_71.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_71.Font = Enum.Font.SourceSans
+TextLabel_71.Text = "spellcaster"
+TextLabel_71.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_71.TextScaled = true
+TextLabel_71.TextSize = 14.000
+TextLabel_71.TextWrapped = true
+
+TextLabel_72.Parent = ScrollingFrame_2
+TextLabel_72.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_72.BackgroundTransparency = 1.000
+TextLabel_72.Position = UDim2.new(0.0641821921, 0, 0.778585196, 0)
+TextLabel_72.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_72.Font = Enum.Font.SourceSans
+TextLabel_72.Text = "scout"
+TextLabel_72.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_72.TextScaled = true
+TextLabel_72.TextSize = 14.000
+TextLabel_72.TextWrapped = true
+
+TextLabel_73.Parent = ScrollingFrame_2
+TextLabel_73.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_73.BackgroundTransparency = 1.000
+TextLabel_73.Position = UDim2.new(0.0641821921, 0, 0.69875133, 0)
+TextLabel_73.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_73.Font = Enum.Font.SourceSans
+TextLabel_73.Text = "electro swing"
+TextLabel_73.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_73.TextScaled = true
+TextLabel_73.TextSize = 14.000
+TextLabel_73.TextWrapped = true
+
+TextLabel_74.Parent = ScrollingFrame_2
+TextLabel_74.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_74.BackgroundTransparency = 1.000
+TextLabel_74.Position = UDim2.new(0.0641821921, 0, 0.738685131, 0)
+TextLabel_74.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_74.Font = Enum.Font.SourceSans
+TextLabel_74.Text = "pixel car"
+TextLabel_74.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_74.TextScaled = true
+TextLabel_74.TextSize = 14.000
+TextLabel_74.TextWrapped = true
+
+TextLabel_75.Parent = ScrollingFrame_2
+TextLabel_75.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_75.BackgroundTransparency = 1.000
+TextLabel_75.Position = UDim2.new(0.0641821921, 0, 0.718675256, 0)
+TextLabel_75.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_75.Font = Enum.Font.SourceSans
+TextLabel_75.Text = "neko"
+TextLabel_75.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_75.TextScaled = true
+TextLabel_75.TextSize = 14.000
+TextLabel_75.TextWrapped = true
+
+TextLabel_76.Parent = ScrollingFrame_2
+TextLabel_76.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_76.BackgroundTransparency = 1.000
+TextLabel_76.Position = UDim2.new(0.0641821921, 0, 0.748699307, 0)
+TextLabel_76.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_76.Font = Enum.Font.SourceSans
+TextLabel_76.Text = "chrismas scythe"
+TextLabel_76.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_76.TextScaled = true
+TextLabel_76.TextSize = 14.000
+TextLabel_76.TextWrapped = true
+
+TextLabel_77.Parent = ScrollingFrame_2
+TextLabel_77.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_77.BackgroundTransparency = 1.000
+TextLabel_77.Position = UDim2.new(0.0641821921, 0, 0.768623233, 0)
+TextLabel_77.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_77.Font = Enum.Font.SourceSans
+TextLabel_77.Text = "void eye"
+TextLabel_77.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_77.TextScaled = true
+TextLabel_77.TextSize = 14.000
+TextLabel_77.TextWrapped = true
+
+TextLabel_78.Parent = ScrollingFrame_2
+TextLabel_78.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_78.BackgroundTransparency = 1.000
+TextLabel_78.Position = UDim2.new(0.0641821921, 0, 0.75866127, 0)
+TextLabel_78.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_78.Font = Enum.Font.SourceSans
+TextLabel_78.Text = "chrismas sniper"
+TextLabel_78.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_78.TextScaled = true
+TextLabel_78.TextSize = 14.000
+TextLabel_78.TextWrapped = true
+
+TextLabel_79.Parent = ScrollingFrame_2
+TextLabel_79.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_79.BackgroundTransparency = 1.000
+TextLabel_79.Position = UDim2.new(0.0641821921, 0, 0.728637218, 0)
+TextLabel_79.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_79.Font = Enum.Font.SourceSans
+TextLabel_79.Text = "racer"
+TextLabel_79.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_79.TextScaled = true
+TextLabel_79.TextSize = 14.000
+TextLabel_79.TextWrapped = true
+
+TextLabel_80.Parent = ScrollingFrame_2
+TextLabel_80.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_80.BackgroundTransparency = 1.000
+TextLabel_80.Position = UDim2.new(0.0641821921, 0, 0.788633108, 0)
+TextLabel_80.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_80.Font = Enum.Font.SourceSans
+TextLabel_80.Text = "plane"
+TextLabel_80.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_80.TextScaled = true
+TextLabel_80.TextSize = 14.000
+TextLabel_80.TextWrapped = true
+
+TextLabel_81.Parent = ScrollingFrame_2
+TextLabel_81.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_81.BackgroundTransparency = 1.000
+TextLabel_81.Position = UDim2.new(0.0641821921, 0, 0.81857121, 0)
+TextLabel_81.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_81.Font = Enum.Font.SourceSans
+TextLabel_81.Text = "bobs"
+TextLabel_81.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_81.TextScaled = true
+TextLabel_81.TextSize = 14.000
+TextLabel_81.TextWrapped = true
+
+TextLabel_82.Parent = ScrollingFrame_2
+TextLabel_82.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_82.BackgroundTransparency = 1.000
+TextLabel_82.Position = UDim2.new(0.0641821921, 0, 0.848595262, 0)
+TextLabel_82.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_82.Font = Enum.Font.SourceSans
+TextLabel_82.Text = "shooter fighter"
+TextLabel_82.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_82.TextScaled = true
+TextLabel_82.TextSize = 14.000
+TextLabel_82.TextWrapped = true
+
+TextLabel_83.Parent = ScrollingFrame_2
+TextLabel_83.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_83.BackgroundTransparency = 1.000
+TextLabel_83.Position = UDim2.new(0.0641821921, 0, 0.808609247, 0)
+TextLabel_83.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_83.Font = Enum.Font.SourceSans
+TextLabel_83.Text = "vapor gun"
+TextLabel_83.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_83.TextScaled = true
+TextLabel_83.TextSize = 14.000
+TextLabel_83.TextWrapped = true
+
+TextLabel_84.Parent = ScrollingFrame_2
+TextLabel_84.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_84.BackgroundTransparency = 1.000
+TextLabel_84.Position = UDim2.new(0.0641821921, 0, 0.828533173, 0)
+TextLabel_84.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_84.Font = Enum.Font.SourceSans
+TextLabel_84.Text = "noob humper"
+TextLabel_84.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_84.TextScaled = true
+TextLabel_84.TextSize = 14.000
+TextLabel_84.TextWrapped = true
+
+TextLabel_85.Parent = ScrollingFrame_2
+TextLabel_85.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_85.BackgroundTransparency = 1.000
+TextLabel_85.Position = UDim2.new(0.0641821921, 0, 0.798647285, 0)
+TextLabel_85.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_85.Font = Enum.Font.SourceSans
+TextLabel_85.Text = "bike"
+TextLabel_85.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_85.TextScaled = true
+TextLabel_85.TextSize = 14.000
+TextLabel_85.TextWrapped = true
+
+TextLabel_86.Parent = ScrollingFrame_2
+TextLabel_86.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_86.BackgroundTransparency = 1.000
+TextLabel_86.Position = UDim2.new(0.0641821921, 0, 0.838581085, 0)
+TextLabel_86.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_86.Font = Enum.Font.SourceSans
+TextLabel_86.Text = "pumpkin lord"
+TextLabel_86.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_86.TextScaled = true
+TextLabel_86.TextSize = 14.000
+TextLabel_86.TextWrapped = true
+
+TextLabel_87.Parent = ScrollingFrame_2
+TextLabel_87.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_87.BackgroundTransparency = 1.000
+TextLabel_87.Position = UDim2.new(0.0641821921, 0, 0.888529062, 0)
+TextLabel_87.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_87.Font = Enum.Font.SourceSans
+TextLabel_87.Text = "penguin dance"
+TextLabel_87.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_87.TextScaled = true
+TextLabel_87.TextSize = 14.000
+TextLabel_87.TextWrapped = true
+
+TextLabel_88.Parent = ScrollingFrame_2
+TextLabel_88.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_88.BackgroundTransparency = 1.000
+TextLabel_88.Position = UDim2.new(0.0641821921, 0, 0.858557224, 0)
+TextLabel_88.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_88.Font = Enum.Font.SourceSans
+TextLabel_88.Text = "void duel"
+TextLabel_88.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_88.TextScaled = true
+TextLabel_88.TextSize = 14.000
+TextLabel_88.TextWrapped = true
+
+TextLabel_89.Parent = ScrollingFrame_2
+TextLabel_89.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_89.BackgroundTransparency = 1.000
+TextLabel_89.Position = UDim2.new(0.0641821921, 0, 0.87848115, 0)
+TextLabel_89.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_89.Font = Enum.Font.SourceSans
+TextLabel_89.Text = "boots"
+TextLabel_89.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_89.TextScaled = true
+TextLabel_89.TextSize = 14.000
+TextLabel_89.TextWrapped = true
+
+TextLabel_90.Parent = ScrollingFrame_2
+TextLabel_90.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_90.BackgroundTransparency = 1.000
+TextLabel_90.Position = UDim2.new(0.0641821921, 0, 0.868519187, 0)
+TextLabel_90.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_90.Font = Enum.Font.SourceSans
+TextLabel_90.Text = "john doe"
+TextLabel_90.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_90.TextScaled = true
+TextLabel_90.TextSize = 14.000
+TextLabel_90.TextWrapped = true
+
+TextLabel_91.Parent = ScrollingFrame_2
+TextLabel_91.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_91.BackgroundTransparency = 1.000
+TextLabel_91.Position = UDim2.new(0.0641821921, 0, 0.917946815, 0)
+TextLabel_91.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_91.Font = Enum.Font.SourceSans
+TextLabel_91.Text = "chat spy"
+TextLabel_91.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_91.TextScaled = true
+TextLabel_91.TextSize = 14.000
+TextLabel_91.TextWrapped = true
+
+TextLabel_92.Parent = ScrollingFrame_2
+TextLabel_92.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_92.BackgroundTransparency = 1.000
+TextLabel_92.Position = UDim2.new(0.0641821921, 0, 0.967894793, 0)
+TextLabel_92.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_92.Font = Enum.Font.SourceSans
+TextLabel_92.Text = "pyramid"
+TextLabel_92.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_92.TextScaled = true
+TextLabel_92.TextSize = 14.000
+TextLabel_92.TextWrapped = true
+
+TextLabel_93.Parent = ScrollingFrame_2
+TextLabel_93.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_93.BackgroundTransparency = 1.000
+TextLabel_93.Position = UDim2.new(0.0641821921, 0, 0.907984972, 0)
+TextLabel_93.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_93.Font = Enum.Font.SourceSans
+TextLabel_93.Text = "chair"
+TextLabel_93.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_93.TextScaled = true
+TextLabel_93.TextSize = 14.000
+TextLabel_93.TextWrapped = true
+
+TextLabel_94.Parent = ScrollingFrame_2
+TextLabel_94.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_94.BackgroundTransparency = 1.000
+TextLabel_94.Position = UDim2.new(0.0641821921, 0, 0.89802289, 0)
+TextLabel_94.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_94.Font = Enum.Font.SourceSans
+TextLabel_94.Text = "golem"
+TextLabel_94.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_94.TextScaled = true
+TextLabel_94.TextSize = 14.000
+TextLabel_94.TextWrapped = true
+
+TextLabel_95.Parent = ScrollingFrame_2
+TextLabel_95.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_95.BackgroundTransparency = 1.000
+TextLabel_95.Position = UDim2.new(0.0641821921, 0, 0.927908778, 0)
+TextLabel_95.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_95.Font = Enum.Font.SourceSans
+TextLabel_95.Text = "rtx"
+TextLabel_95.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_95.TextScaled = true
+TextLabel_95.TextSize = 14.000
+TextLabel_95.TextWrapped = true
+
+TextLabel_96.Parent = ScrollingFrame_2
+TextLabel_96.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_96.BackgroundTransparency = 1.000
+TextLabel_96.Position = UDim2.new(0.0641821921, 0, 0.947970867, 0)
+TextLabel_96.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_96.Font = Enum.Font.SourceSans
+TextLabel_96.Text = "eggdog"
+TextLabel_96.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_96.TextScaled = true
+TextLabel_96.TextSize = 14.000
+TextLabel_96.TextWrapped = true
+
+TextLabel_97.Parent = ScrollingFrame_2
+TextLabel_97.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_97.BackgroundTransparency = 1.000
+TextLabel_97.Position = UDim2.new(0.0641821921, 0, 0.977856755, 0)
+TextLabel_97.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_97.Font = Enum.Font.SourceSans
+TextLabel_97.Text = "gamer"
+TextLabel_97.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_97.TextScaled = true
+TextLabel_97.TextSize = 14.000
+TextLabel_97.TextWrapped = true
+
+TextLabel_98.Parent = ScrollingFrame_2
+TextLabel_98.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_98.BackgroundTransparency = 1.000
+TextLabel_98.Position = UDim2.new(0.0641821921, 0, 0.987904668, 0)
+TextLabel_98.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_98.Font = Enum.Font.SourceSans
+TextLabel_98.Text = "vr"
+TextLabel_98.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_98.TextScaled = true
+TextLabel_98.TextSize = 14.000
+TextLabel_98.TextWrapped = true
+
+TextLabel_99.Parent = ScrollingFrame_2
+TextLabel_99.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_99.BackgroundTransparency = 1.000
+TextLabel_99.Position = UDim2.new(0.0641821921, 0, 0.937956691, 0)
+TextLabel_99.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_99.Font = Enum.Font.SourceSans
+TextLabel_99.Text = "skateboard"
+TextLabel_99.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_99.TextScaled = true
+TextLabel_99.TextSize = 14.000
+TextLabel_99.TextWrapped = true
+
+TextLabel_100.Parent = ScrollingFrame_2
+TextLabel_100.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_100.BackgroundTransparency = 1.000
+TextLabel_100.Position = UDim2.new(0.0641821921, 0, 0.13982977, 0)
+TextLabel_100.Size = UDim2.new(0, 421, 0, 39)
+TextLabel_100.Font = Enum.Font.SourceSans
+TextLabel_100.Text = "spider"
+TextLabel_100.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_100.TextScaled = true
+TextLabel_100.TextSize = 14.000
+TextLabel_100.TextWrapped = true
+
+-- Scripts:
+
+local function JBNJXN_fake_script() -- SubTitle.TypingAnimation 
+	local script = Instance.new('LocalScript', SubTitle)
+
+	local fuck = script.Parent
+	
+	wait(2)
+	fuck.Text = ">"
+	wait(.1)
+	fuck.Text = ">S"
+	wait(.1)
+	fuck.Text = ">SY"
+	wait(.1)
+	fuck.Text = ">SYS"
+	wait(.1)
+	fuck.Text = ">SYST"
+	wait(.1)
+	fuck.Text = ">SYSTE"
+	wait(.1)
+	fuck.Text = ">SYSTEM"
+	wait(.1)
+	fuck.Text = ">SYSTEM3"
+	wait(.1)
+	fuck.Text = ">SYSTEM32"
+end
+coroutine.wrap(JBNJXN_fake_script)()
+local function ALKLY_fake_script() -- AnimationText3.PlayerNameDetect 
+	local script = Instance.new('LocalScript', AnimationText3)
+
+	script.Parent.Text = "Welcome, "..game.Players.LocalPlayer.DisplayName
+end
+coroutine.wrap(ALKLY_fake_script)()
+local function HOIZMB_fake_script() -- ScrollingFrame.OpenLoad 
+	local script = Instance.new('LocalScript', ScrollingFrame)
+
+	script.Parent.Parent.Parent.Parent.Load.Visible = true
+	local guiObject = script.Parent
+	
+	local function callback(didComplete)
+		if didComplete then
+			print("")
+		else
+			print("")
+		end
+	end
+	
+	local willTween = guiObject:TweenSize(
+		UDim2.new(0, 489, 0, 270),  -- endSize (required)
+		Enum.EasingDirection.Out,    -- easingDirection (default Out)
+		Enum.EasingStyle.Quad,      -- easingStyle (default Quad)
+		1,                          -- time (default: 1)
+		true,                       -- should this tween override ones in-progress? (default: false)
+		callback                    -- a function to call when the tween completes (default: nil)
+	)
+	
+	if willTween then
+		print("") 
+	else
+		print("")
+	end
+end
+coroutine.wrap(HOIZMB_fake_script)()
+local function SMPRK_fake_script() -- ScrollingFrame.LocalScript 
+	local script = Instance.new('LocalScript', ScrollingFrame)
+
+	wait(2.8)
+	script.Parent.AnimationText:TweenPosition(
+		UDim2.new(0.276, 0, 0.673, 0),
+		"Out",
+		"Quad",
+		1.5,
+		true
+	)
+	wait(2.8)
+	script.Parent.AnimationText:TweenPosition(
+		UDim2.new(0.276, 0, 3.673, 0),
+		"In",
+		"Quad",
+		1.5,
+		true
+	)
+	script.Parent.AnimationText1:TweenPosition(
+		UDim2.new(0.276, 0, 0.673, 0),
+		"Out",
+		"Quad",
+		1.5,
+		true
+	)
+	wait(2.8)
+	script.Parent.AnimationText1:TweenPosition(
+		UDim2.new(0.276, 0, 3.673, 0),
+		"In",
+		"Quad",
+		1.5,
+		true
+	)
+	script.Parent.AnimationText2:TweenPosition(
+		UDim2.new(0.276, 0, 0.673, 0),
+		"Out",
+		"Quad",
+		1.5,
+		true
+	)
+	wait(2.8)
+	script.Parent.AnimationText2:TweenPosition(
+		UDim2.new(0.276, 0, 3.673, 0),
+		"In",
+		"Quad",
+		1.5,
+		true
+	)
+	script.Parent.AnimationText3:TweenPosition(
+		UDim2.new(0.276, 0, 0.673, 0),
+		"Out",
+		"Quad",
+		1.5,
+		true
+	)
+	wait(2.8)
+	script.Parent.AnimationText3:TweenPosition(
+		UDim2.new(0.276, 0, 3.673, 0),
+		"In",
+		"Quad",
+		1.5,
+		true
+	)
+	wait(2.8)
+	script.Parent:TweenSize(
+		UDim2.new(0, 489, 0, 1),  
+		Enum.EasingDirection.In,    
+		Enum.EasingStyle.Quad,
+		1,                          
+		true
+	)
+	wait(1.1)
+	script.Parent:Destroy()
+end
+coroutine.wrap(SMPRK_fake_script)()
+local function UZBR_fake_script() -- HomebrewCRACKED.Nonfication 
+	local script = Instance.new('LocalScript', HomebrewCRACKED)
+
+	game:GetService("StarterGui"):SetCore("SendNotification", { 
+		Title = "Cedits";
+		Text = "among SUS#6252 aka Blukez";
+		Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+	Duration = 16;
+end
+coroutine.wrap(UZBR_fake_script)()
+local function ATZWM_fake_script() -- Execute.Scripts 
+	local script = Instance.new('LocalScript', Execute)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.lol.CmdBox.Text == "cmds" then
+			script.Parent.Parent.Parent.Cmds.Visible = true
+			script.Parent.Parent.Parent.Cmds.ScrollSizerCmds.ScrollingFrame:TweenSize(
+				UDim2.new(0, 483, 0, 257)
+			)
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.lol.CmdBox.Text == "netless" then
+			for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+				if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
+					game:GetService("RunService").Heartbeat:connect(function()
+						v.Velocity = Vector3.new(0,35,0)
+						wait(0.5)
+					end)
+				end
+			end
+	
+			game:GetService("StarterGui"):SetCore("SendNotification", { 
+				Title = "Notification";
+				Text = "Netless activated";
+				Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+			Duration = 16;
+		end
+	end)
+end
+coroutine.wrap(ATZWM_fake_script)()
+local function NXCFFY_fake_script() -- Main.KeyBind 
+	local script = Instance.new('LocalScript', Main)
+
+	local UserInput = game:GetService("UserInputService")
+	
+	wait(17)
+	UserInput.InputBegan:Connect(function(input, gameProcessedEvent)
+		if input.KeyCode == Enum.KeyCode.Minus then
+			if script.Parent.Position == script.Parent.Parent.PositionPlaceHolder.Position then
+				script.Parent:TweenPosition(
+					UDim2.new(0.688, 0, 3.154, 0)
+				)
+			else
+				script.Parent:TweenPosition(
+					UDim2.new(0.688, 0, 0.154, 0)
+				)
+			end
+		end
+	end)
+end
+coroutine.wrap(NXCFFY_fake_script)()
+local function TDCRZB_fake_script() -- CloseCmds.CloseCmdsScript 
+	local script = Instance.new('LocalScript', CloseCmds)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.ScrollSizerCmds.ScrollingFrame:TweenSize(
+			UDim2.new(0, 483, 0, 0)
+		)
+		wait(1)
+		script.Parent.Parent.Parent.Parent.Cmds.Visible = false
+	end)
+end
+coroutine.wrap(TDCRZB_fake_script)()
+local function OEPQIPY_fake_script() -- Cmds.Drag 
+	local script = Instance.new('LocalScript', Cmds)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(OEPQIPY_fake_script)()
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "sonic" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/SyF5t70A"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "gale" then
+		loadstring(game:HttpGet(("https://pastebin.com/raw/PjJNLaFa"), true))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "among us" then
+		loadstring(game:HttpGet("https://pastebin.com/raw/JXUMavf3", true))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "killbot" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/G24tcRXA"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "neko maid" then
+		loadstring(game:HttpGetAsync("https://paste.ee/d/6bCwm/0"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "smug" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/ZuKy7HFF"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "shadow blade" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/kMYThpNG"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "fishing rod" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/Wp8C1bi7"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "sword stand" then
+		loadstring(game:HttpGetAsync("https://paste.ee/r/NwGVX/0"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "neptunion" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/t0Mkc33N"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "rb neptunion" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/gDi503fB"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "wall" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/AY6kA2AV"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "achromatic glitcher" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/T7cmny7C"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "flaming cube" then
+		loadstring(game:HttpGet("https://pastebin.com/raw/D7pigANg"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "spider" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/txsk1LJg"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "cop" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/VAA5Mf60"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "chips" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/b289ts36"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "joy" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/LEAQuKj0"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "ultimate meme dance" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/0QfjMKrF"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "chill" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/XmHFdTij"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "wallwalk" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/RY9cBbdG"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "grapple" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/AyASkDEG"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "krystal dance" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/FV3HLmTH"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "stand" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/RZUwatYV"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "fling punch gui" then
+		loadstring(game:HttpGet(('https://pastebin.com/raw/YPZ0wNaw'),true))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "server admin" then
+		loadstring(game:HttpGet("https://rawgithubusercontent.com/ONEReverseCard/My-Scripts/main/Netless%20Server%20Adminmd"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "ban hammer" then
+		loadstring(game:HttpGetAsync("https://rawgithubusercontent.com/killermaster9999mega/thing/main/READMEmd"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "parkour god" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/xwmnPkvY"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "sniper" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/dtz7qGBg"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "ender" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/bndCgupK"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "vr sword" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/M9pnqjtn"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "elio blasio" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/xvBXu6Yc"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "minigun" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/sK9EUPE6"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "car" then
+		loadstring(game:HttpGet('https://rawgithubusercontent.com/MonkoTubeYT/carscript/master/!carscriptlua',true))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "carnage" then
+		loadstring(game:HttpGet(('https://pastebin.com/raw/Ntg4PB33'),true))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "segs doll" then
+		loadstring(game:HttpGet(('https://pastebin.com/raw/dB6DGBB6'),true))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "titan" then
+		loadstring(game:HttpGet(('https://pastebin.com/raw/qSMz7Uiu'),true))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "gun" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/0Jv3udmi"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "cat" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/YLfR8Qx9"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "lutris" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/6jeamwQL"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "memeus" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/cCMJ9C82"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "pen" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/1qcpeuDm"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "xester" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/RPwyPvEi"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "caducus" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/jfryBKds"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "broomstick" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/xyHiNwtg"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "headless" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/mssZBy9j"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "head hold" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/jsZHrVFf"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "goopie" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/fKLm580i"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "orange justice" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/Efg0DgkP"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "dumb" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/xLPcieGZ"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "floss" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/JfyvWHLf"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "distract dance" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/2tJBN38N"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "russian kick" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/1P37qYeV"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "insanity powers" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/ygWAZh5A"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "zen" then
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/o5u3/Zen/main/ZenFlingFE.txt"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "hell robotics" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/cF4yBbWs"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "touch kill" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/KaYHHvh7"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "pillow" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/RbKLMpdt"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "rainbow king" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/Xfxx4qJ0"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "pp" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/MMDGHMq1"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "genocider" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/fFhLBNPU"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "abyss eye" then
+		loadstring(game:HttpGet("https://paste.ee/r/tUPmo/0"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "rolex" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/qViPAp8g"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "triangle chat" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/ahBKsjJ2"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "take the l" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/VkWkuyzc"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "naruto" then
+		loadstring(game:HttpGetAsync("https://hastebin.com/raw/ohequwikaf"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "aureate" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/71S0q0XT"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "blackhole" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/4zY4XvvA"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "flaming umbrella" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/g2heqqYe"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "rc tank" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/SeJPALMu"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "electro swing" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/S0ekEXPX"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "spellcaster" then
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/o5u3/Spellcaster/main/SpellcasterFE.txt"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "neko" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/ZbuaiGg5"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "racer" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/L1Fybs6W"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "pixel car" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/1Nmes8yC"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "christmas scythe" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/ddudd4kx"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "christmas sniper" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/HS8bDVzW"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "void eye" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/dNbwYjkr"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "scout" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/G8XGN0AE"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "plane" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/gGJtHawV"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "bike" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/gGJtHawV"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "vapor gun" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/BBWrfQ89"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "bobs" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/8ASG9gWB"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "noob humper" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/WkkG4LRN"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "pumpkin lord" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/Yk67SfRy"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "shooter fighter" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/KAMMdqgh"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "void duel" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/bt0e5n4j"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "john doe" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/DwhVGxTs"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "boots" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/pfShTUeY"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "penguin dance" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/UtWvDMuD"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "golem" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/bvhQ4vke"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "chair" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/j93bFLzs"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "chat spy" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/LWthUDFE"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "rtx" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/Ba5A2mXj"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "skateboard" then
+		loadstring(game:HttpGet("https://pastebin.com/raw/XAXCaupJ"))()
+	end
+end)
+
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "eggdog" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/rkAD6D4J"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "stilts" then
+		loadstring(game:HttpGetAsync("https://ghostbin.co/paste/2eoao/raw"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "table" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/9kDrHnUd"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "pyramid" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/47FxhPef"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "gamer" then
+		loadstring(game:HttpGetAsync("https://paste.ee/d/6OYEg/0"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "hacker x" then
+		loadstring(game:HttpGetAsync("https://paste.ee/d/fPQbL/0"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "drone" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/GriadDUx"))()
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	if CmdBox.Text == "vr" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/uZWAvTxC"))()
+	end
+end)
