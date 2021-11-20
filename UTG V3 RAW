@@ -1436,7 +1436,7 @@ KillBot.MouseButton1Click:Connect(function()
 end)
 
 NekoMaid.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGetAsync("https://paste.ee/d/6bCwm/0"))()
+	loadstring(game:HttpGetAsync("https://paste.ee/d/iCtCM/0"))()
 end)
 
 SmugDance.MouseButton1Click:Connect(function()
