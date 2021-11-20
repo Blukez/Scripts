@@ -1648,7 +1648,7 @@ JhonDoe.MouseButton1Click:Connect(function()
 end)
 
 Neko.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGetAsync("https://pastebin.com/raw/ZbuaiGg5"))()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/7i7CsTPe"))()
 end)
 
 Boobs.MouseButton1Click:Connect(function()
